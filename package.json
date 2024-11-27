@@ -1,0 +1,19 @@
+{
+  "name": "bun-sass-issue",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.ts",
+    "issue": "bun run issue.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.81.0",
+    "sass-embedded": "^1.81.0"
+  }
+}
